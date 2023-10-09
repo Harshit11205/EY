@@ -1,0 +1,102 @@
+h1{
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    width: 200px;
+}
+
+.product img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.customization {
+    padding: 20px;
+}
+
+.customization form {
+    display: flex;
+    flex-direction: column;
+}
+
+.customization label {
+    margin-bottom: 5px;
+}
+
+.customization select {
+    margin-bottom: 15px;
+}
+
+.customization button {
+    align-self: center;
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
